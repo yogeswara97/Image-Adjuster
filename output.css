@@ -181,8 +181,20 @@
   }
 }
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
+  .visible {
+    visibility: visible;
+  }
+  .absolute {
+    position: absolute;
+  }
   .relative {
     position: relative;
+  }
+  .static {
+    position: static;
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
